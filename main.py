@@ -55,7 +55,7 @@
 #       = (4*n^3 + 3*n^2 + 8*n - 9) / 6
 #             * Simplify
 
-def main(n):
+def main(n: int) -> int:
     """
     Returns the sum of the numbers on the diagonals of an `n` by `n` number spiral.
 
@@ -63,7 +63,7 @@ def main(n):
         n (int): Odd natural number
 
     Returns:
-        Sum of diagonals of `n` by `n` spiral
+        (int): Sum of diagonals of `n` by `n` spiral
 
     Raises:
         AssertError: if incorrect args are given
